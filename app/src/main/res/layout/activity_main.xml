@@ -18,7 +18,7 @@
         android:layout_alignBottom="@+id/tvStateText"
         android:layout_alignParentEnd="true"
         android:layout_toEndOf="@+id/tvStateText"
-        android:text = "State"
+        android:text = "@string/state"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
 
@@ -26,7 +26,7 @@
         android:id="@+id/tvStateText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="your state : "
+        android:text="@string/stateDescr"
         android:textColor="@android:color/white"
         android:textSize="14sp"
         android:layout_centerVertical="true"
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:textSize="14sp"
         android:textColor="@android:color/white"
-        android:text="You're working on project : " />
+        android:text="@string/projDescr" />
 
     <ImageButton
         android:id="@+id/btnHappy"
@@ -135,7 +135,7 @@
         style="@android:style/Widget.Holo.Button.Borderless"
         android:layout_width="150dp"
         android:layout_height="30dp"
-        android:text="Add new Project"
+        android:text="@string/addProj"
         android:textAllCaps="false"
         android:textSize="14sp"
         android:layout_marginTop="60dp"
@@ -149,7 +149,7 @@
         android:layout_height="30dp"
         android:layout_alignBottom="@+id/btnAddProject"
         android:layout_alignParentEnd="true"
-        android:text="Remove Project"
+        android:text="@string/remProj"
         android:textAllCaps="false"
         android:textSize="14sp" />
 
