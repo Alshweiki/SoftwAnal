@@ -1,0 +1,13 @@
+Team : 
+nom / rôle
+Danick Panchard
+Ali Alshweiki
+Mahmoud Assaf
+Anthony Hessab
+
+Tâches 23.03.2017 :
+
+- communiquer avec le serveur -> Ali
+- automated user testing -> Mahmoud
+- implémenter les fonctionnalités des boutons + listes -> Danick
+- tests unitaires -> Anthony
