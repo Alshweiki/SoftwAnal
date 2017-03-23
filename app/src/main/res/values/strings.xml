@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">SoftwAnal</string>
-
+    <string name="app_name">Mood Analyser</string>
+    <string name="stateDescr">your state : </string>
+    <string name="state">State</string>
+    <string name="projDescr">You\'re working on project : </string>
+    <string name="addProj">Add new Project</string>
+    <string name="remProj">Remove Project</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 </resources>
