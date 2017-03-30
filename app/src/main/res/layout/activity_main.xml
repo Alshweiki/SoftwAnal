@@ -151,6 +151,7 @@
         android:textAllCaps="false"
         android:textSize="14sp"
         android:layout_marginTop="60dp"
+        android:onCLick="addNewProjectClicked"
         android:layout_below="@+id/tvProjectChoice"
         android:layout_alignParentStart="true" />
 
@@ -163,7 +164,8 @@
         android:layout_alignParentEnd="true"
         android:text="@string/remProj"
         android:textAllCaps="false"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:onClick="deleteProjectClicked" />
 
 
 </RelativeLayout>

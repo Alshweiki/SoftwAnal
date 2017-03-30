@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ExpandableListView;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -21,6 +22,7 @@ public class MainActivity extends Activity {
 
 
     View activeButtonView;
+    ExpandableListView projectList;
     TextView state;
 
 
@@ -30,12 +32,18 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         state = (TextView) findViewById(R.id.tvState);
+        projectList = (ExpandableListView) findViewById(R.id.elvProjectList);
 
     }
 
-    public void createNewProjectClicked(View view)
+    public void addNewProjectClicked(View view)
     {
+        //dialog popup
+    }
 
+    public void deleteProjectClicked(View view)
+    {
+        //dialog popup
     }
 
     public void stateClicked(View view)
