@@ -33,6 +33,11 @@ public class MainActivity extends Activity {
 
     }
 
+    public void createNewProjectClicked(View view)
+    {
+
+    }
+
     public void stateClicked(View view)
     {
         if(activeButtonView != null)
