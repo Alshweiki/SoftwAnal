@@ -1,16 +1,47 @@
 package hes_so.softwanal;
 
 import android.app.Activity;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageButton;
+import android.widget.TextView;
+
+import org.json.JSONObject;
+
+import java.io.BufferedInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
 
 public class MainActivity extends Activity {
+
+
+    View activeButtonView;
+    TextView state;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        state = (TextView) findViewById(R.id.tvState);
+
+    }
+
+    public void stateClicked(View view)
+    {
+        if(activeButtonView != null)
+        {
+            activeButtonView.setActivated(false);
+        }
+        activeButtonView = view;
+        activeButtonView.setActivated(true);
+        state.setText(activeButtonView.getContentDescription());
 
     }
 

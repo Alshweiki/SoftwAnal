@@ -49,6 +49,8 @@
         android:adjustViewBounds="true"
         android:background="@android:color/holo_blue_light"
         android:scaleType="fitXY"
+        android:onClick="stateClicked"
+        android:contentDescription="@string/happy"
         android:src="@drawable/smiling_emoji_with_eyes_opened" />
 
 
@@ -62,6 +64,8 @@
         android:adjustViewBounds="true"
         android:background="@android:color/holo_blue_light"
         android:scaleType="fitXY"
+        android:onClick="stateClicked"
+        android:contentDescription="@string/angry"
         android:src="@drawable/angry_emoji" />
 
 
@@ -76,6 +80,8 @@
         android:adjustViewBounds="true"
         android:background="@android:color/holo_blue_light"
         android:scaleType="fitXY"
+        android:onClick="stateClicked"
+        android:contentDescription="@string/thinking"
         android:src="@drawable/thinking_face_emoji" />
 
 
@@ -89,6 +95,8 @@
         android:adjustViewBounds="true"
         android:background="@android:color/holo_blue_light"
         android:scaleType="fitXY"
+        android:onClick="stateClicked"
+        android:contentDescription="@string/broken"
         android:src="@drawable/astonished_face_emoji" />
 
 
@@ -102,6 +110,8 @@
         android:adjustViewBounds="true"
         android:background="@android:color/holo_blue_light"
         android:scaleType="fitXY"
+        android:onClick="stateClicked"
+        android:contentDescription="@string/stressed"
         android:src="@drawable/fearful_face_emoji" />
 
 
@@ -115,6 +125,8 @@
         android:adjustViewBounds="true"
         android:background="@android:color/holo_blue_light"
         android:scaleType="fitXY"
+        android:onClick="stateClicked"
+        android:contentDescription="@string/sleepy"
         android:src="@drawable/sleeping_emoji" />
 
     <ExpandableListView

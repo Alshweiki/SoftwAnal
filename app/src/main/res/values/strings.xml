@@ -7,4 +7,10 @@
     <string name="remProj">Remove Project</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="happy">Happy</string>
+    <string name="thinking">Thinking</string>
+    <string name="angry">Angry</string>
+    <string name="stressed">Stressed</string>
+    <string name="sleepy">Sleepy</string>
+    <string name="broken">Broken</string>
 </resources>
