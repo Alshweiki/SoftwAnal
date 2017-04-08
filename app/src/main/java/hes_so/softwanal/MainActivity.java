@@ -1,29 +1,25 @@
 package hes_so.softwanal;
 
 import android.app.Activity;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ExpandableListView;
-import android.widget.ImageButton;
 import android.widget.TextView;
 
-import org.json.JSONObject;
-
-import java.io.BufferedInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
-
 public class MainActivity extends Activity {
-
 
     View activeButtonView;
     ExpandableListView projectList;
     TextView state;
+
+    //For testing
+    // The TextView used to display the message inside the Activity.
+    private TextView mTextView;
+    // The EditText where the user types the message.
+    private EditText mEditText;
 
 
     @Override
@@ -33,7 +29,6 @@ public class MainActivity extends Activity {
 
         state = (TextView) findViewById(R.id.tvState);
         projectList = (ExpandableListView) findViewById(R.id.elvProjectList);
-
     }
 
     public void addNewProjectClicked(View view)
@@ -55,7 +50,6 @@ public class MainActivity extends Activity {
         activeButtonView = view;
         activeButtonView.setActivated(true);
         state.setText(activeButtonView.getContentDescription());
-
     }
 
     @Override
@@ -79,4 +73,5 @@ public class MainActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }
